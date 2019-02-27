@@ -13,12 +13,10 @@ Client:
 - ML5 / Tensorflow
 - React-Player
 - React-Webcam
-- React-PDF
+- React-PDF (Using React-Window for Lazy/Variable Size pages loading (WIP))
 - ThreeJS
-- REST API / JSON (Fingrid, Oulun Liikenne, Alpha Vantage, IEX Trading)
+- REST API / JSON (Fingrid (WIP), Oulun Liikenne, Alpha Vantage)
 - Websocket (io.socket-client) (IEX trading, realtime)
-- Open Data APIs (Fingrid, Oulun Liikenne, Digitraffic)
-- React-PDF
 
 Server / Middleware:
 
