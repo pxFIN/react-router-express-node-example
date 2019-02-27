@@ -3,6 +3,7 @@ Simple Responsive Example Project (ES6 style, based on Create-React-App boilerpl
 (see .env files for customization)
 
 Client:
+
 - React
 - React-Router / Navigation
 - Lazy Loading Components/Suspense
@@ -19,15 +20,14 @@ Client:
 - Open Data APIs (Fingrid, Oulun Liikenne, Digitraffic)
 - React-PDF
 
-
 Server / Middleware:
+
 - Express
 - Node
 - PostgreSQL
 - HTTP-proxy-middleware
 - Sequelize
 - CORS
-
 
 Install
 
@@ -48,3 +48,8 @@ npm start
 Other:
 
 Install/Configure PostgreSQL
+
+API KEYS: (get your own)
+
+Fingrid: https://data.fingrid.fi/fi/pages/api
+Alpha Vantage: https://www.alphavantage.co/documentation (code challenge modify FinanceAlpha.jsx code to API)
