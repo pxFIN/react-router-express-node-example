@@ -1,0 +1,27 @@
+.jepjep {
+  height: 75vh;
+  width: auto;
+}
+
+.leaflet-container {
+  height: 100%;
+  width: 100%;
+}
+
+#mybtn {
+  vertical-align: sub;
+}
+
+#menu {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  z-index: 1000;
+  padding: 6px 8px;
+  /* font: 14px/16px Arial, Helvetica, sans-serif; */
+  background: white;
+  background: rgba(255, 255, 255, 0.8);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  width: auto;
+}

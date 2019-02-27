@@ -1,0 +1,29 @@
+#block2 {
+  display: inline-block;
+  margin-bottom: 5px;
+  padding: 10px;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  background-color: #aaa;
+}
+
+#frame {
+  line-height: normal;
+  list-style-type: none;
+  padding-inline-start: 0;
+  border: 50px solid transparent;
+  border-image: url(frame.png) 100 round;
+  padding: 6px;
+}
+
+.fullscreen-enabled .feedfull {
+  background: rgb(255, 255, 255);
+  height: 100%;
+  width: 100%;
+  font-size: 16px;
+}

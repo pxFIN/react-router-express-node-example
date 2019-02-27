@@ -1,0 +1,161 @@
+.menucircle-container {
+  height: 75vh;
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+  background: #303c54;
+  position: relative;
+  background: radial-gradient(#648880, #293f50);
+}
+
+.menu-item {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 6em;
+  width: 6em;
+  margin: -3em;
+  text-align: center;
+  display: flex;
+  border-radius: 50%;
+  box-shadow: 10px 10px 10px -11px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+
+.menu-item-icon {
+  color: white;
+  font-size: 2em;
+  display: flex;
+  margin: auto;
+  transition: font-size 0.1s ease-out;
+}
+
+.menu-item:hover {
+  height: 7em;
+  width: 7em;
+  margin: -3.5em;
+}
+
+.menu-item:hover svg {
+  font-size: 2.5em;
+}
+
+.item-show {
+  opacity: 1;
+  transition: height 0.1s ease-out, width 0.1s ease-out, margin 0.1s ease-out,
+    opacity 0.5s ease-out;
+}
+
+.item-hide {
+  opacity: 0;
+}
+
+.menu-background {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: 100;
+  background: radial-gradient(#f0e8d1, #978a63);
+}
+
+.button-bg {
+  position: relative;
+  height: 18em;
+  width: 18em;
+  border-radius: 50%;
+  margin: 1.75em auto 0;
+  z-index: 1000;
+  top: 50%;
+  margin-top: -9em;
+}
+
+.menu-toggle {
+  position: absolute;
+  z-index: 2000;
+  margin-top: 2em;
+  margin-left: 2em;
+  height: 6em;
+  width: 6em;
+  border-radius: 50%;
+  background-color: transparent;
+  outline: none !important;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+.menu-toggle-icon {
+  font-size: 20px;
+}
+
+.toggle-open {
+  border: 3px solid #353535;
+  color: #353535;
+  top: 50%;
+  left: 50%;
+  margin-top: -3em;
+  margin-left: -3em;
+  -webkit-animation: fadeIn 1s 1 ease-in;
+  animation: fadeIn 1s 1 ease-in;
+}
+
+.toggle-closed {
+  border: 3px solid white;
+  color: white;
+}
+
+.menu-wrapper-open {
+  opacity: 1;
+  visibility: visible;
+  transition: all 0.2s ease-out;
+}
+
+.menu-wrapper-closed {
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.2s ease-out;
+}
+
+.animate-menu {
+  -webkit-animation: spin 1.3s 1 cubic-bezier(0.175, 0.585, 0.08, 1.2);
+  animation: spin 1.3s 1 cubic-bezier(0.175, 0.585, 0.08, 1.2);
+  -webkit-animation-delay: 0.2s;
+  animation-delay: 0.2s;
+}
+
+@-webkit-keyframes spin {
+  from {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  from {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

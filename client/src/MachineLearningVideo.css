@@ -1,0 +1,39 @@
+.MLExample {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.MLExample div {
+  background-color: #e3e5e6;
+  width: 300px;
+  padding: 8px 50px;
+  font-size: 12px;
+  line-height: normal;
+}
+
+.MLExample div:nth-of-type(odd) {
+  background-color: #cccdcf;
+}
+
+div.loader {
+  animation: loader-spin infinite 1.2s linear;
+  padding: 0;
+  background-color: transparent !important;
+  height: 50px;
+  width: 50px;
+  border: 5px solid #eee;
+  border-bottom: 5px solid #007bff;
+  border-radius: 50% !important;
+}
+
+@keyframes loader-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

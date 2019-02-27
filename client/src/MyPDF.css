@@ -1,0 +1,35 @@
+.pdfWrapper {
+  height: 78vh;
+  width: 100%;
+}
+
+.mypdf-container-buttons {
+  text-align: center;
+}
+
+.mypdf-container-pages {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.pdfLoader {
+  animation: loader-spin infinite 1.2s linear;
+  padding: 0;
+  background-color: transparent !important;
+  height: 50px;
+  width: 50px;
+  border: 5px solid #eee;
+  border-bottom: 5px solid #007bff;
+  border-radius: 50% !important;
+  margin: 2rem;
+}
+
+@keyframes loader-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

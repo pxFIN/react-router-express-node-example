@@ -1,0 +1,48 @@
+.ReactTable .rt-tbody .rt-td {
+  text-align: center;
+}
+
+#buttons {
+  padding: 8px;
+  text-align: center;
+}
+
+#buttons-margin {
+  margin: 10px;
+}
+
+.led-red {
+  margin: 20px auto;
+  width: 12px;
+  height: 12px;
+  background-color: #940;
+  border-radius: 50%;
+  box-shadow: #000 0 -1px 7px 1px, inset #600 0 -1px 9px, #f00 0 2px 12px;
+}
+
+.led-yellow {
+  margin: 20px auto;
+  width: 12px;
+  height: 12px;
+  background-color: #a90;
+  border-radius: 50%;
+  box-shadow: #000 0 -1px 7px 1px, inset #660 0 -1px 9px, #dd0 0 2px 12px;
+}
+
+.led-green {
+  margin: 20px auto;
+  width: 12px;
+  height: 12px;
+  background-color: #690;
+  border-radius: 50%;
+  box-shadow: #000 0 -1px 7px 1px, inset #460 0 -1px 9px, #7d0 0 2px 12px;
+}
+
+.led-blue {
+  margin: 20px auto;
+  width: 12px;
+  height: 12px;
+  background-color: #4ab;
+  border-radius: 50%;
+  box-shadow: #000 0 -1px 7px 1px, inset #006 0 -1px 9px, #06f 0 2px 14px;
+}

@@ -1,0 +1,32 @@
+.content {
+  background-color: #fff;
+  padding: 20px;
+  -webkit-box-shadow: 2px 4px 8px 0px rgba(45, 46, 67, 0.85);
+  -moz-box-shadow: 2px 4px 8px 0px rgba(45, 46, 67, 0.85);
+  box-shadow: 2px 4px 8px 0px rgba(45, 46, 67, 0.85);
+  height: 100%;
+}
+
+div.loader2 {
+  animation: loader-spin infinite 1.2s linear;
+  padding: 0;
+  background-color: transparent !important;
+  height: 50px;
+  width: 50px;
+  border: 5px solid #eee;
+  border-bottom: 5px solid #007bff;
+  border-radius: 50% !important;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@keyframes loader-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

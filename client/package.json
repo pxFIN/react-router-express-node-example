@@ -1,0 +1,50 @@
+{
+  "name": "router-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.18.0",
+    "bootstrap": "^4.3.1",
+    "highcharts": "^7.0.3",
+    "highcharts-react-official": "^2.0.0",
+    "leaflet": "^1.4.0",
+    "leaflet-easybutton": "^2.4.0",
+    "lodash": "^4.17.11",
+    "ml5": "^0.2.1",
+    "node-sass": "^4.11.0",
+    "react": "^16.8.3",
+    "react-bootstrap": "^1.0.0-beta.5",
+    "react-datepicker": "^2.1.0",
+    "react-dom": "^16.8.3",
+    "react-full-screen": "^0.2.4",
+    "react-icons": "^3.4.0",
+    "react-image-gallery": "^0.8.14",
+    "react-leaflet": "^2.2.1",
+    "react-pdf": "^4.0.3",
+    "react-player": "^1.9.3",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "^2.1.5",
+    "react-table": "^6.9.2",
+    "react-webcam": "^1.1.0",
+    "react-window": "^1.5.1",
+    "screenfull": "^4.0.0",
+    "socket.io-client": "^2.2.0",
+    "three": "^0.101.1",
+    "three-full": "^11.3.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts --max_old_space_size=4096 build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
