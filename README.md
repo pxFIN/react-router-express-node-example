@@ -52,4 +52,5 @@ Install/Configure PostgreSQL
 API KEYS: (get your own)
 
 Fingrid: https://data.fingrid.fi/fi/pages/api
+
 Alpha Vantage: https://www.alphavantage.co/documentation (code challenge modify FinanceAlpha.jsx code to API)
